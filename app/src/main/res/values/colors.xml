@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#999999</color>
+    <color name="card_gray">#2A2A2A</color>
+    <color name="tab_inactive">#7A7A7A</color>
+    <color name="apple_blue">#0071E3</color>
+</resources>

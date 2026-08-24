@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black" android:orientation="vertical"
+    android:paddingStart="200dp" android:paddingEnd="200dp" android:paddingTop="60dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Settings" android:textColor="@color/white" android:textSize="42sp"
+        android:textStyle="bold" android:layout_marginBottom="36dp"/>
+
+    <LinearLayout android:id="@+id/settings_rows"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+</LinearLayout>
