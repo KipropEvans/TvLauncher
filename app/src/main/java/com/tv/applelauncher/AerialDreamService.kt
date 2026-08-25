@@ -33,7 +33,7 @@ class AerialDreamService : DreamService() {
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         isInteractive = false
-        fullscreen = true
+        isFullscreen = true
 
         playerView = PlayerView(this).apply {
             useController = false

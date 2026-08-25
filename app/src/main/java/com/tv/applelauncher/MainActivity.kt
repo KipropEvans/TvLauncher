@@ -199,7 +199,7 @@ class MainActivity : AppCompatActivity() {
                 shelves.adapter = ShelfAdapter(shelfList) { onItemFocused(it) }
 
             } catch (e: Exception) {
-                Toast.makeText(this, "Jellyfin unreachable — showing offline content",
+                Toast.makeText(this@MainActivity, "Jellyfin unreachable — showing offline content",
                     Toast.LENGTH_SHORT).show()
                 setupFallback()
             }
